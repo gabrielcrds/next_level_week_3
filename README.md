@@ -25,4 +25,15 @@ In the second we can use a single server for mobile and web apps, as the server 
 
 7. Using Yarn to create project: ``yarn create react-app {project-name} --template typescript``
 
-8. 
+8. Run project ``yarn start``
+- runs index.tsx
+-- imports react, react dom, app
+-- calls method render, which receives an html element and inputs it into \#root div.
+- All 'components' in react are function that returns a html.
+-- components can have properties or parameters
+
+9. [Google Fonts](https://fonts.google.com/)
+
+10. Make imports on app.tsx or index.tsx, avoid imports on html.
+
+11. Cool icon package react-icons ``yarn add react-icons``
