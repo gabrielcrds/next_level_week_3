@@ -27,13 +27,20 @@ In the second we can use a single server for mobile and web apps, as the server 
 
 8. Run project ``yarn start``
 - runs index.tsx
--- imports react, react dom, app
--- calls method render, which receives an html element and inputs it into \#root div.
+  - imports react, react dom, app
+  - calls method render, which receives an html element and inputs it into \#root div.
 - All 'components' in react are function that returns a html.
--- components can have properties or parameters
+  - components can have properties or parameters
 
 9. [Google Fonts](https://fonts.google.com/)
 
 10. Make imports on app.tsx or index.tsx, avoid imports on html.
 
 11. Cool icon package react-icons ``yarn add react-icons``
+
+12. Routing between pages ``yarn add react-router-dom``
+
+13. Free alternatives to google-maps:
+- [leafletjs](https://leafletjs.com/) + [react-leaflet](https://react-leaflet.js.org/) + [openstreetmap](https://www.openstreetmap.org/)
+- [mapbox](https://www.mapbox.com/)
+  - to use this last we would need a secret token and a account. Put these in a '.env' file and make sure it is in .gitignore file.
